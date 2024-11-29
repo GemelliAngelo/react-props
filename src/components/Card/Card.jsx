@@ -1,12 +1,10 @@
+import placeHolder from "../../assets/img/placeholder.png";
+
 export default function Card(title, image, content, tags, published) {
   return (
     <div className="col">
       <div className="card">
-        <img
-          src="src\assets\img\placeholder.png"
-          alt="example"
-          className="card-img-top"
-        />
+        <img src={placeHolder} className="card-img-top" />
         <div className="card-body">
           <h2 className="card-title h4 py-2">Titolo del post</h2>
           <p className="card-text">

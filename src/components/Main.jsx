@@ -6,8 +6,10 @@ export default function Main() {
     <main>
       <div className="container">
         <div className="d-flex justify-content-center">
-          <div className="row row-cols-2">
-            <Card />
+          <div className="row row-cols-2 g-3">
+            {postsData.map((post) => {
+              <Card />;
+            })}
           </div>
         </div>
       </div>
