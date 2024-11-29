@@ -5,7 +5,9 @@ export default function Main() {
     <main>
       <div className="container">
         <div className="d-flex justify-content-center">
-          <Card />
+          <div className="row row-cols-2">
+            <Card />
+          </div>
         </div>
       </div>
     </main>
