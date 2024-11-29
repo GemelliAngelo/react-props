@@ -5,3 +5,11 @@ body {
 p {
   margin: 0;
 }
+
+main {
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}

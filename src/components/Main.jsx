@@ -14,7 +14,6 @@ export default function Main() {
                 title={post.title}
                 image={post.image}
                 description={post.content}
-                tags={post.tags}
               />
             ))}
         </div>
