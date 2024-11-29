@@ -1,6 +1,6 @@
 import placeHolder from "../../assets/img/placeholder.png";
 
-export default function Card(title, image, content, tags, published) {
+export default function Card({ title, image, description, tags }) {
   return (
     <div className="col">
       <div className="card">
