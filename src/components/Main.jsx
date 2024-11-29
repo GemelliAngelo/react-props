@@ -1,4 +1,5 @@
 import Card from "./Card/Card";
+import postsData from "../data/postsData";
 
 export default function Main() {
   return (

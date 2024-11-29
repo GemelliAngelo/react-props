@@ -1,5 +1,3 @@
-import postsData from "../../data/postsData";
-
 export default function Card(title, image, content, tags, published) {
   return (
     <div className="col">
