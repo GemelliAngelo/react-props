@@ -7,9 +7,7 @@ export default function Header() {
       <div className="container">
         <h1>Il Mio Blog</h1>
       </div>
-      {postsData.map((post) => (
-        <Navbar tags={post.tags} />
-      ))}
+      <Navbar tags={postsData.map((post) => post.tags)} />
     </header>
   );
 }
