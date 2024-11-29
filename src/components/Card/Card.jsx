@@ -7,8 +7,8 @@ export default function Card({ title, image, description }) {
       <div className="card">
         <img src={image || placeHolder} className="card-img-top" />
         <div className="card-body">
-          <h2 className="card-title h4 py-2">{title}</h2>
-          <p className="card-text">{description}</p>
+          {title && <h2 className="card-title h4 py-2">{title}</h2>}
+          {description && <p className="card-text">{description}</p>}
           <Button />
         </div>
       </div>
