@@ -5,7 +5,7 @@ export default function Main() {
   return (
     <main>
       <div className="container">
-        <div className="row row-cols-2 g-3">
+        <div className="row row-cols-2 g-4 mb-4">
           {postsData
             .filter((post) => post.published === true)
             .map((post) => (

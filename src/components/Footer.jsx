@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-dark text-white py-5 mt-5">
+    <footer className="bg-dark text-white py-5">
       <div className="container">
         <p className="text-center">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque rerum
