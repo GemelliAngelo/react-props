@@ -2,8 +2,6 @@ import Navbar from "./Navbar/Navbar";
 import postsData from "../data/postsData";
 
 export default function Header() {
-  console.log(postsData.map((post) => post.tags.map((tag) => tag)));
-
   return (
     <header className="text-center p-3">
       <div className="container">

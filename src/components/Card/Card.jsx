@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 
 export default function Card({ title, image, description }) {
   return (
-    <div className="col">
+    <div className="col-7">
       <div className="card">
         <img src={image || placeHolder} className="card-img-top" />
         <div className="card-body">

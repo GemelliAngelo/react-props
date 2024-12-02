@@ -5,7 +5,7 @@ export default function Main() {
   return (
     <main>
       <div className="container">
-        <div className="row row-cols-2 g-4 mb-4">
+        <div className="row g-5 mb-4 justify-content-center">
           {postsData
             .filter((post) => post.published === true)
             .map((post) => (
